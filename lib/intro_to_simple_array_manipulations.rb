@@ -29,9 +29,15 @@ end
 #using_pop
 
 def using_pop(array1 = ["Spring", "Summer", "Fall"])
-  array1.using_pop
+  array1.pop
 end
-  
+
+
+#using_pop_with_args
+
+def using_pop_with_args(array1 = ["Spring", "Summer", "Fall"])
+  array1.pop()
+end
   
   
   

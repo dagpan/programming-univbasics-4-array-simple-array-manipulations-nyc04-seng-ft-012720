@@ -70,9 +70,9 @@ def using_flatten(array1 = ["Spring", "Summer", "Fall"], element = "Winter")
 end
 
 
-#using_insert
+#using_delete
 
-def using_insert(array1 = ["Spring", "Summer", "Fall"], element = "Winter")
+def using_delete(array1 = ["Spring", "Summer", "Fall"], element = "Winter")
   array1.insert(3, element)
 end
 

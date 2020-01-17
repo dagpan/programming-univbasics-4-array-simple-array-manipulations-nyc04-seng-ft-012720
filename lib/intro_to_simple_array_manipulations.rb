@@ -56,16 +56,16 @@ def using_insert(array1 = ["Spring", "Summer", "Fall"], element = "Winter")
 end
 
 
-#using_insert
+#using_uniq
 
-def using_insert(array1 = ["Spring", "Summer", "Fall"], element = "Winter")
+def using_uniq(array1 = ["Spring", "Summer", "Fall"], element = "Winter")
   array1.insert(3, element)
 end
 
 
-#using_insert
+#using_flatten
 
-def using_insert(array1 = ["Spring", "Summer", "Fall"], element = "Winter")
+def using_flatten(array1 = ["Spring", "Summer", "Fall"], element = "Winter")
   array1.insert(3, element)
 end
 

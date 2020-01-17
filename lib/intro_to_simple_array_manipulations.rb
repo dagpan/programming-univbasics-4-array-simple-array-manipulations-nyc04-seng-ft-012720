@@ -66,7 +66,7 @@ end
 #using_flatten
 
 def using_flatten(array1 = [seasons = ["Spring", "Summer", "Fall", "Winter"], weather = ["Warm", "Hot", "Wet", "Cold"])
-  array1.flatten = array1_flat
+  array1.flatten
 end
 
 

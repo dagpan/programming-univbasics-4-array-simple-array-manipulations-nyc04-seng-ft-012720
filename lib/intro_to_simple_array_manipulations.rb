@@ -65,7 +65,7 @@ end
 
 #using_flatten
 
-def using_flatten(array1 = [seasons = ["Spring", "Summer", "Fall", "Winter"], weather = ["Warm", "Hot", "Wet", "Cold"])
+def using_flatten(array1 = [seasons = ["Spring", "Summer", "Fall", "Winter"], weather = ["Warm", "Hot", "Wet", "Cold"]])
   array1.flatten
 end
 

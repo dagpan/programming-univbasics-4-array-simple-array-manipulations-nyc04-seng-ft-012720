@@ -26,8 +26,8 @@ end
 def using_pop_with_args(array1 = ["Spring", "Summer", "Fall"])
   array1.pop(2)
 end
-  
-  
+
+
 #using_shift
 
 def using_shift(array1 = ["Spring", "Summer", "Fall"])
@@ -37,7 +37,7 @@ end
   
 #using_shift_with_args
 
-def using_shift_with_args(array1 = ["Spring", "Summer", "Fall"])
+def shift_with_args(array1 = ["Spring", "Summer", "Fall"])
   array1.shift(2)
 end   
 

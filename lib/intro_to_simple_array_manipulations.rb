@@ -35,4 +35,24 @@ def using_shift(array1 = ["Spring", "Summer", "Fall"])
 end  
   
   
+#using_shift_with_args
+
+def using_shift_with_args(array1 = ["Spring", "Summer", "Fall"])
+  array1.shift(2)
+end   
+
+
+#using_concat
+
+def using_concat(, array1 = ["Spring", "Summer", "Fall", "Winter"], array2 = ["Warm", "Hot", "Wet", "Cold"])
   
+
+end
+
+
+
+
+
+
+
+

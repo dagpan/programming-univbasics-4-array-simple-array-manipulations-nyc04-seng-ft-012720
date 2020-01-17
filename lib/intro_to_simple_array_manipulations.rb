@@ -45,12 +45,15 @@ end
 #using_concat
 
 def using_concat(, array1 = ["Spring", "Summer", "Fall", "Winter"], array2 = ["Warm", "Hot", "Wet", "Cold"])
-  array1.concat array2
-
+  array1.concat(array2)
 end
 
 
+#using_insert
 
+def using_insert(, array1 = ["Spring", "Summer", "Fall", "Winter"], array2 = ["Warm", "Hot", "Wet", "Cold"])
+  array1.concat(array2)
+end
 
 
 

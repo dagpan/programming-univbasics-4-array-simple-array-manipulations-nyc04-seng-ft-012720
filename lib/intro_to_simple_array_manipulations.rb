@@ -79,8 +79,8 @@ end
 
 #using_delete_at
 
-def using_delete_at(array1 = ["Spring", "Summer", "Fall"], element = "Winter")
-  array1.insert(3, element)
+def using_delete_at(array1 = ["Spring", "Summer", "Fall"], int = 3)
+  array1.delete_at(int)
 end
 
 

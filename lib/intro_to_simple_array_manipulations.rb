@@ -58,15 +58,15 @@ end
 
 #using_uniq
 
-def using_uniq(array1 = ["Spring", "Summer", "Fall", "Winter"])
+def using_uniq(array1 = ["Spring", "Summer", "Spring", "Fall", "Winter"])
   array1.uniq()
 end
 
 
 #using_flatten
 
-def using_flatten(array1 = ["Spring", "Summer", "Fall"], element = "Winter")
-  array1.insert(3, element)
+def using_flatten(array1 = [seasons = ["Spring", "Summer", "Fall", "Winter"], weather = ["Warm", "Hot", "Wet", "Cold"])
+  array1.flatten = array1_flat
 end
 
 

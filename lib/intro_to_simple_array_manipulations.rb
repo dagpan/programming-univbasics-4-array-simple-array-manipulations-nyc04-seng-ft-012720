@@ -1,17 +1,5 @@
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 #using_push
 
 def using_push(array1 = ["Spring", "Summer", "Fall"], season = "Winter")
@@ -36,10 +24,15 @@ end
 #using_pop_with_args
 
 def using_pop_with_args(array1 = ["Spring", "Summer", "Fall"])
-  array1.pop()
+  array1.pop(2)
 end
   
   
+#using_shift
+
+def using_shift(array1 = ["Spring", "Summer", "Fall"])
+  array1.shift
+end  
   
   
   

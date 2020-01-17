@@ -26,6 +26,14 @@ def using_unshift(array1 = ["Spring", "Summer", "Fall"], season = "Winter")
 end
 
 
-#using_unshift
+#using_pop
 
-
+def using_pop(array1 = ["Spring", "Summer", "Fall"])
+  array1.using_pop
+end
+  
+  
+  
+  
+  
+  

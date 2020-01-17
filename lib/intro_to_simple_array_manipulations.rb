@@ -23,7 +23,7 @@ end
 
 #using_pop_with_args
 
-def using_pop_with_args(array1 = ["Spring", "Summer", "Fall"])
+def pop_with_args(array1 = ["Spring", "Summer", "Fall"])
   array1.pop(2)
 end
 

@@ -58,7 +58,7 @@ end
 
 #using_uniq
 
-def using_uniq(array1 = ["Spring", "Summer", "Fall"], element = "Winter")
+def using_uniq(array1 = ["Spring", "Summer", "Fall", "Winter"])
   array1.insert(3, element)
 end
 
